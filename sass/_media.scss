@@ -1,0 +1,387 @@
+@import 'variables';
+@import 'utilities';
+
+// Smartphone view
+@media(max-width:500px)
+{
+    .navbar-wide
+    {
+        display:none;
+    }
+
+    // Heading classes
+    .head
+    {
+
+        &-1
+        {
+            font-size:2rem;
+        }
+        &-2
+        {
+            font-size:1.8rem;
+        }
+        &-3
+        {
+            font-size:1.3rem;
+        }
+        &-4
+        {
+            font-size:1.3rem;
+        }
+        &-underline
+        {
+            position:relative;
+
+            &:after
+            {
+                content:'';
+                position:absolute;
+                height:2px;
+                width:10%;
+                background:$primary-color;
+                bottom:0;
+                left:0;
+                transform:translateY(-5px);
+                // margin-top:-100px;
+            }
+        }
+
+    }
+
+    // Paragraph classes
+    .lead
+    {
+        &-1
+        {
+            font-size:1rem;
+        }
+        &-2
+        {
+            font-size:0.8rem;
+        }
+        &-3
+        {
+            font-size:0.6rem;
+        }
+    }
+
+    // Button class
+    %btn-shared
+    {
+        padding:0.6rem 1.4rem;
+        font-size:0.8rem;
+    }
+
+    // Showcase styling
+    #home
+    {
+        background:$secondary-color;
+        
+        &-main
+        {
+            .showcase-quote
+            {
+                .head-1
+                {
+                    font-size:4rem; 
+                }
+    
+                .quote-2
+                {
+                    margin-top:-40px;
+                    transform:translateX(110px);
+                }
+            }
+    
+            .showcase-content
+            {
+                margin-top:8rem;
+            }
+
+            .showcase-art
+            {
+                z-index:-1;
+
+                .circle-art
+                {
+                    height:10rem;
+                    width:10rem;
+                    right:-100px;
+
+                    .circular-grid
+                    {
+                        left:5px;
+                        .circle
+                        {
+                            height:4px;
+                            width:4px;
+                        }
+                    }
+                }
+
+            }
+            
+        }
+
+        // Scroll indicator styling
+        .scroll-indicate
+        { 
+            left:0;
+            right:0;
+            position:absolute;
+            display:flex;
+            justify-content:center;
+            bottom:50px;
+            z-index:1;
+            // display:none;
+            
+            .indicator
+            {
+                height:5px;
+                width:50px;
+                background:$light-color;
+                border-radius:25px;
+            }
+        }
+
+
+    }
+
+    // Remaining section stylings
+    #section
+    {
+        &-a
+        {
+            .container
+            {
+                .about-content
+                {
+                    width:100%;
+
+                    .below-section
+                    {
+                        grid-template-columns:1fr;
+                        grid-gap:2rem;
+                    }
+                }
+                .about-showcase
+                {
+                    display:none;
+                }
+            }
+        }
+
+        // Testimonial
+        &-b
+        {
+            .container
+            {
+                .test-carousel
+                {
+                    .client-tab
+                    {
+                        margin-top:7rem;
+                    }
+                }
+                .apostrophe
+                {
+                    font-size:4rem;
+
+                    &-1
+                    {
+                        top:10px;
+                        left:5px;
+                    }
+
+                    &-2
+                    {
+                        bottom:-10px;
+                        right:5px;
+                    }
+
+                }
+
+                .test-indicator
+                {
+                    bottom:5px;
+                }
+            }
+        }
+
+        // Gallery
+        &-c
+        {
+            .gallery-img-contain
+            {
+                grid-template-columns:repeat(2,1fr);
+
+                .img
+                {
+                    &-2
+                    {
+                        grid-row:span 1;
+                    }
+                }
+            }
+        }
+
+        // Trainers
+        &-d
+        {
+            height:120vh;
+            .container
+            {
+                
+                .card-container
+                {
+                    grid-template-columns:1fr;
+                    grid-gap:3rem;
+
+                    .trainer-card
+                    {
+                        display:flex;
+                        height:100%;
+                        .trainer-pic
+                        {
+                            height:100%;
+                            width:30%;
+                        }
+
+                        .trainer-desc
+                        {
+                            padding:3rem 1.6rem;
+                            margin-top:-25px;
+                            width:70%;
+                        }
+
+                        .contact-links
+                        {
+                            bottom:20px;
+                            .icon-flex
+                            {
+                                .icon-contain
+                                {
+                                    height:30px;
+                                    width:30px;
+                                    padding:1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Pricing
+        &-e
+        {
+            overflow-y: unset;
+            .container
+            {
+                .price-card-contain
+                {
+                    display:block;
+                    padding:0 1rem;
+                    margin-top:2.5rem;
+
+                    .price-card
+                    {
+                        width:100%;
+                        padding:1rem 1.5rem;
+                        animation: unset;
+                        margin-bottom:2rem;
+
+                        &-1,
+                        &-2,
+                        &-3
+                        {
+                            position:relative;
+                        }
+
+                        &-3
+                        {
+                            right:0;
+                        }
+                        
+                    }
+                }
+
+            }
+        }
+
+        // Contact form
+        &-f
+        {
+            // background:$dark-color;
+            .container
+            {
+                .contact-contain
+                {
+                    display:block;
+                    margin-top:1.6rem;
+                    padding:0 2rem;
+    
+                    .contact-flex
+                    {
+                        width:100%;
+    
+                        .contact-form
+                        {
+                            .form-contain
+                            {
+                                display:block;
+
+                                .form-grp
+                                {
+                                    width:100%;
+                                    .label-contain
+                                    {
+                                        &::after
+                                        {
+                                            transform:translateX(-400px);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .contact-showcase
+                    {
+                        display:none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    // Footer
+    .main-footer
+    {
+        .container
+        {
+            grid-template-columns:1fr;
+
+            .box
+            {
+                
+                &-5
+                {
+                    grid-column:span 1;
+
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:768px)
+{
+    .navbar-shrink
+    {
+        display:none;
+    }
+}
+

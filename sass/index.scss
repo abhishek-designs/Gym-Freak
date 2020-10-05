@@ -19,6 +19,7 @@ html,body
     overflow:hidden;
     background:url('../img/gym2.jpg') no-repeat center center/cover;
 
+
     &-main
     {
         // Showcase content styling
@@ -152,6 +153,8 @@ html,body
 
         }
     }
+
+
 }
 
 // Remaining sections styling
@@ -240,7 +243,7 @@ html,body
                     grid-gap:0.6rem;
                     // left:0;
                     bottom:-30px;
-                    right:40px;
+                    right:5px;
                     
                     .circle
                     {
@@ -559,8 +562,8 @@ html,body
                         position:absolute;
                         bottom:10px;
                         height:10%;
-                        padding:0 1.5rem;
-                        background:$light-color;
+                        // padding:0 1.5rem;
+                        // background:$light-color;
                         // margin-bottom:0.6rem;
                         display:flex;
                         .icon-flex
@@ -807,13 +810,14 @@ html,body
         // overflow:hidden;
         .container
         {
-            padding:2rem 0;
-            margin-top:4rem;
+            // padding:2rem 0;
+            // margin-top:4rem;
             .contact-contain
             {
                 display:flex;
                 grid-gap:2rem;
-                margin-top:3rem;
+                margin-top:2rem;
+                padding:4rem 0;
 
                 .contact-flex
                 {
@@ -986,3 +990,6 @@ html,body
         }
     }
 }
+
+// Importing media queries
+@import 'media';

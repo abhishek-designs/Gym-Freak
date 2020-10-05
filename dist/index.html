@@ -11,16 +11,16 @@
     <!-- Header -->
     <header id="home">
         <div class="container">
-            <!-- Navigation bar -->
-            <nav class="navbar">
+            <!-- Navigation bar (PC) -->
+            <nav class="navbar-wide">
                 <!-- Logo -->
-                <a href="index.html">
-                    <div class="logo">
+                <div class="logo">
+                    <a href="index.html">
                         <h3 class="head-3 primary">Gym</h3>
                         <span class="bg-light"></span>
                         <h3 class="head-3 light">Freak</h3>
-                    </div>
-                </a>
+                    </a>
+                </div>
 
                 <!-- Nav links -->
                 <ul>
@@ -30,6 +30,32 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
+
+            <!-- Navbar (mobo & tab) -->
+            <div class="navbar-shrink">
+                <div class="nav-content">
+                    <div class="menu">
+                        <!-- Hamburger control -->
+                        <input type="checkbox" name="toggler" id="toggler" class="toggler">
+                        <div class="hamburger">
+                            <div>
+                                <!-- Hamburger lines -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html">
+                            <h3 class="head-3 primary">Gym</h3>
+                            <span class="bg-light"></span>
+                            <h3 class="head-3 light">Freak</h3>
+                        </a>
+                    </div>
+
+                    
+                </div>
+            </div>
 
             <!-- Home main showcase-->
             <div id="home-main" class="showcase">
@@ -92,6 +118,13 @@
 
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Scroll indication for user (only for phones & tab) -->
+        <div class="scroll-indicate">
+            <div class="indicator">
+
             </div>
         </div>
     </header>
@@ -362,35 +395,36 @@
                                 <p class="lead-3 med">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sint magni veniam eius! Sunt voluptatum quo, reiciendis iste ab vel! </p>
                             </div>
 
+                            <div class="contact-links">
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-facebook light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-envelope light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-twitter light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                            </div>
+
                         </div>
                         
-                        <div class="contact-links">
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-facebook light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-envelope light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-twitter light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div>
                         
                     </div>
                     <div class="trainer-card trainer-card-2 bg-light">
@@ -404,38 +438,39 @@
                             </div>
 
                             <div class="desc">
-                                <p class="lead-3 med">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quisquam aut eaque assumenda veniam accusantium nisi eveniet impedit est placeat. </p>
+                                <p class="lead-3 med">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+
+                            <div class="contact-links">
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-facebook light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-envelope light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-twitter light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
                             </div>
 
                         </div>
                         
-                        <div class="contact-links">
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-facebook light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-envelope light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-twitter light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div>
                     </div>
                     <div class="trainer-card trainer-card-3 bg-light">
                         <div class="trainer-pic">
@@ -448,38 +483,39 @@
                             </div>
 
                             <div class="desc">
-                                <p class="lead-3 med">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda beatae tempore nulla placeat quis. Distinctio, inventore? Excepturi necessitatibus quis adipisci.</p>
+                                <p class="lead-3 med">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="contact-links">
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-facebook light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-envelope light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="icon-flex">
+                                    <a href="">
+                                        <div class="icon-contain bg-primary">
+                                            <i class="fa fa-twitter light"></i>
+                                        </div>
+                                    </a>
+                                </div>
+    
                             </div>
 
                         </div>
                         
-                        <div class="contact-links">
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-facebook light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-envelope light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="icon-flex">
-                                <a href="">
-                                    <div class="icon-contain bg-primary">
-                                        <i class="fa fa-twitter light"></i>
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -804,13 +840,13 @@
         <div class="container">
             <div class="box box-1 logo-contain">
                 <!-- Logo -->
-                <a href="index.html">
-                    <div class="logo">
+                <div class="logo">
+                    <a href="index.html">
                         <h3 class="head-3 primary">Gym</h3>
                         <span class="bg-dark"></span>
                         <h3 class="head-3 dark">Freak</h3>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
 
             <div class="box box-2 timing-contain">
