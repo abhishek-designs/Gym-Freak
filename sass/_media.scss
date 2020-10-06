@@ -187,17 +187,18 @@
                 .apostrophe
                 {
                     font-size:2.5rem;
+                    z-index:1;
 
                     &-1
                     {
                         top:30px;
-                        left:5px;
+                        left:2px;
                     }
 
                     &-2
                     {
-                        bottom:30px;
-                        right:5px;
+                        bottom:-30px;
+                        right:2px;
                     }
 
                 }

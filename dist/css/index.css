@@ -1238,13 +1238,14 @@ input {
   #section-b .container .test-carousel .client-tab {
     margin-top: 7rem; }
   #section-b .container .apostrophe {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    z-index: 1; }
     #section-b .container .apostrophe-1 {
       top: 30px;
-      left: 5px; }
+      left: 2px; }
     #section-b .container .apostrophe-2 {
-      bottom: 30px;
-      right: 5px; }
+      bottom: -30px;
+      right: 2px; }
   #section-b .container .test-indicator {
     bottom: 5px; }
   #section-c .gallery-img-contain {
