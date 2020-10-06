@@ -265,7 +265,7 @@ html,body
         {
             position:relative;
             height:100%;
-            overflow:hidden;
+            // overflow:hidden;
 
 
             .test-carousel
@@ -365,7 +365,7 @@ html,body
                 position:absolute;
                 font-size:5rem;
                 font-family:$quote-font;
-                opacity:0.5;
+                opacity:0.3;
                 user-select:none;
 
                 &-1
