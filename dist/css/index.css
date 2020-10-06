@@ -1265,7 +1265,9 @@ input {
         height: 100%; }
         #section-d .container .card-container .trainer-card .trainer-pic {
           height: 100%;
-          width: 30%; }
+          width: 50%; }
+        #section-d .container .card-container .trainer-card-1 .trainer-pic {
+          background-position: 70%; }
         #section-d .container .card-container .trainer-card .trainer-desc {
           padding: 3rem 1.6rem;
           margin-top: -25px;
