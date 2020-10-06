@@ -1271,7 +1271,7 @@ input {
         #section-d .container .card-container .trainer-card .trainer-desc {
           padding: 3rem 1rem;
           margin-top: -25px;
-          width: 50%; }
+          width: 0%; }
         #section-d .container .card-container .trainer-card .contact-links {
           bottom: 20px; }
           #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain {

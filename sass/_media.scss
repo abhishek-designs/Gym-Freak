@@ -212,7 +212,7 @@
 
         // Gallery
         &-c
-        {
+        {   
             .gallery-img-contain
             {
                 grid-template-columns:repeat(2,1fr);
@@ -276,7 +276,7 @@
                         {
                             padding:3rem 1rem;
                             margin-top:-25px;
-                            width:50%;
+                            width:0%;
                         }
 
                         .contact-links
