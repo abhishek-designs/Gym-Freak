@@ -374,6 +374,7 @@ input
     align-items:center;
     .nav-content
     {
+        position:relative;
         display:flex;
         align-items:center;
         // grid-gap:5rem;
@@ -381,12 +382,13 @@ input
 
         .logo
         {
-            transform:translateX(50%);
+            // position:absolute;
+            margin:auto;
         }
     
         .menu
         {
-            position:relative;
+            position:absolute;
             height:50px;
             width:50px;
             

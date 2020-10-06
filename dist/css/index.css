@@ -232,13 +232,14 @@ input {
   display: flex;
   align-items: center; }
   .navbar-shrink .nav-content {
+    position: relative;
     display: flex;
     align-items: center;
     width: 100%; }
     .navbar-shrink .nav-content .logo {
-      transform: translateX(50%); }
+      margin: auto; }
     .navbar-shrink .nav-content .menu {
-      position: relative;
+      position: absolute;
       height: 50px;
       width: 50px; }
       .navbar-shrink .nav-content .menu .toggler {
@@ -755,8 +756,7 @@ html, body {
           #section-f .container .contact-contain .contact-flex .contact-form .form-contain .form-grp input:focus + .label-contain .label-content,
           #section-f .container .contact-contain .contact-flex .contact-form .form-contain .form-grp input:valid + .label-contain .label-content {
             font-size: 0.8rem;
-            transform: translateY(-30px);
-            color: #FA2A34; }
+            transform: translateY(-30px); }
         #section-f .container .contact-contain .contact-flex .contact-form .form-contain .form-grp .label-contain {
           position: absolute;
           top: 0;
@@ -1053,13 +1053,14 @@ input {
   display: flex;
   align-items: center; }
   .navbar-shrink .nav-content {
+    position: relative;
     display: flex;
     align-items: center;
     width: 100%; }
     .navbar-shrink .nav-content .logo {
-      transform: translateX(50%); }
+      margin: auto; }
     .navbar-shrink .nav-content .menu {
-      position: relative;
+      position: absolute;
       height: 50px;
       width: 50px; }
       .navbar-shrink .nav-content .menu .toggler {
