@@ -216,9 +216,10 @@
             .gallery-img-contain
             {
                 grid-template-columns:repeat(2,1fr);
-                padding:2rem 0;
+                
                 .img
                 {
+                    height:200px;
                     &-1
                     {
                         .img-contain
@@ -235,6 +236,21 @@
                         .img-contain
                         {
                             background-position: 65%;
+                        }
+                    }
+
+                    &-wrapper
+                    {
+                        .content
+                        {
+                            .head-2
+                            {
+                                font-size:1.2rem;
+                            }
+                            .lead-2
+                            {
+                                font-size:0.7rem;
+                            }
                         }
                     }
                 }

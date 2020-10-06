@@ -1248,14 +1248,19 @@ input {
   #section-b .container .test-indicator {
     bottom: 5px; }
   #section-c .gallery-img-contain {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 0; }
-    #section-c .gallery-img-contain .img-1 .img-contain {
-      background-position: 30%; }
-    #section-c .gallery-img-contain .img-2 {
-      grid-row: span 1; }
-    #section-c .gallery-img-contain .img-4 .img-contain {
-      background-position: 65%; }
+    grid-template-columns: repeat(2, 1fr); }
+    #section-c .gallery-img-contain .img {
+      height: 200px; }
+      #section-c .gallery-img-contain .img-1 .img-contain {
+        background-position: 30%; }
+      #section-c .gallery-img-contain .img-2 {
+        grid-row: span 1; }
+      #section-c .gallery-img-contain .img-4 .img-contain {
+        background-position: 65%; }
+      #section-c .gallery-img-contain .img-wrapper .content .head-2 {
+        font-size: 1.2rem; }
+      #section-c .gallery-img-contain .img-wrapper .content .lead-2 {
+        font-size: 0.7rem; }
   #section-d {
     height: 120vh; }
     #section-d .container .card-container {
