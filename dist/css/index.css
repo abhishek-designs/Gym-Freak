@@ -1285,7 +1285,9 @@ input {
           #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain {
             height: 30px;
             width: 30px;
-            padding: 1rem; }
+            padding: 0.8rem; }
+            #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain i {
+              font-size: 0.7rem; }
   #section-e {
     overflow-y: unset; }
     #section-e .container .price-card-contain {
@@ -1316,7 +1318,8 @@ input {
     #section-f .container .contact-contain .contact-showcase {
       display: none; }
   .main-footer .container {
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    grid-gap: 3rem; }
     .main-footer .container .box-5 {
       grid-column: span 1; } }
 

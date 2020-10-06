@@ -309,7 +309,12 @@
                                 {
                                     height:30px;
                                     width:30px;
-                                    padding:1rem;
+                                    padding:0.8rem;
+
+                                    i
+                                    {
+                                        font-size:0.7rem;
+                                    }
                                 }
                             }
                         }
@@ -408,6 +413,7 @@
         .container
         {
             grid-template-columns:1fr;
+            grid-gap:3rem;
 
             .box
             {
