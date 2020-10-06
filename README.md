@@ -2,4 +2,4 @@
 # GYM-FREAK WEBSITE
 ***
 
-**Project is completing soon**
+**Project will be completed soon**
