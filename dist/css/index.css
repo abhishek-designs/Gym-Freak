@@ -237,6 +237,7 @@ input {
     align-items: center;
     width: 100%; }
     .navbar-shrink .nav-content .logo {
+      transform: scale(1.1);
       margin: auto; }
     .navbar-shrink .nav-content .menu {
       position: absolute;
@@ -1057,6 +1058,7 @@ input {
     align-items: center;
     width: 100%; }
     .navbar-shrink .nav-content .logo {
+      transform: scale(1.1);
       margin: auto; }
     .navbar-shrink .nav-content .menu {
       position: absolute;
