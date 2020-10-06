@@ -1186,9 +1186,9 @@ input {
       left: 0;
       transform: translateY(-5px); }
   .lead-1 {
-    font-size: 0.9rem; }
-  .lead-2 {
     font-size: 0.8rem; }
+  .lead-2 {
+    font-size: 0.7rem; }
   .lead-3 {
     font-size: 0.6rem; }
   .btn {
