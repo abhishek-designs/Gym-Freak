@@ -106,13 +106,13 @@
 
             .showcase-art
             {
-                z-index:-2;
 
                 .circle-art
                 {
                     height:10rem;
                     width:10rem;
                     right:-100px;
+                    z-index:1;
 
                     .circular-grid
                     {

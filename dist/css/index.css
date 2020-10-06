@@ -356,8 +356,7 @@ html, body {
   overflow: hidden;
   background: url("../img/gym2.jpg") no-repeat center center/cover; }
   #home-main .showcase-content {
-    margin-top: 10%;
-    z-index: 1; }
+    margin-top: 10%; }
     #home-main .showcase-content .head-1 {
       padding-bottom: 1.5rem; }
     #home-main .showcase-content .lead-1 {
@@ -408,12 +407,12 @@ html, body {
       transform: translateX(165px); }
   #home-main .showcase-art .circle-art {
     position: absolute;
+    top: 20rem;
+    right: -100px;
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
-    background: rgba(250, 42, 52, 0.4);
-    top: 6rem;
-    right: -130px; }
+    background: rgba(250, 42, 52, 0.4); }
     #home-main .showcase-art .circle-art .circular-grid {
       position: absolute;
       display: grid;
@@ -424,7 +423,7 @@ html, body {
       #home-main .showcase-art .circle-art .circular-grid .circle {
         height: 5px;
         width: 5px;
-        background: #FDFDFD;
+        background: #9D9D9D;
         border-radius: 50%; }
 
 #section-a .container {
@@ -1206,17 +1205,16 @@ input {
       margin-top: 8rem; }
       #home-main .showcase-content .btn {
         margin-top: 1.6rem; }
-    #home-main .showcase-art {
-      z-index: -2; }
-      #home-main .showcase-art .circle-art {
-        height: 10rem;
-        width: 10rem;
-        right: -100px; }
-        #home-main .showcase-art .circle-art .circular-grid {
-          left: 5px; }
-          #home-main .showcase-art .circle-art .circular-grid .circle {
-            height: 4px;
-            width: 4px; }
+    #home-main .showcase-art .circle-art {
+      height: 10rem;
+      width: 10rem;
+      right: -100px;
+      z-index: 1; }
+      #home-main .showcase-art .circle-art .circular-grid {
+        left: 5px; }
+        #home-main .showcase-art .circle-art .circular-grid .circle {
+          height: 4px;
+          width: 4px; }
     #home .scroll-indicate {
       left: 0;
       right: 0;

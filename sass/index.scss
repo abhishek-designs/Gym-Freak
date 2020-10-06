@@ -26,7 +26,6 @@ html,body
         .showcase-content
         {
             margin-top:10%;
-            z-index:1;
 
             .head-1
             {
@@ -123,15 +122,17 @@ html,body
         // Showcase art
         .showcase-art
         {
+
+            // z-index:-1;
             .circle-art
             {
                 position:absolute;
+                top:20rem;
+                right:-100px;
                 height:15rem;
                 width:15rem;
                 border-radius:50%;
                 background:rgba($primary-color,0.4);
-                top:6rem;
-                right:-130px;
 
                 .circular-grid
                 {
@@ -146,7 +147,7 @@ html,body
                     {
                         height:5px;
                         width:5px;
-                        background:$light-color;
+                        background:$med-color;
                         border-radius:50%;
                     }
                 }
