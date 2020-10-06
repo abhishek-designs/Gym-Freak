@@ -533,8 +533,8 @@ html, body {
       position: absolute;
       bottom: 10px;
       display: flex;
-      transform: translateX(50%, 50%);
-      margin-left: 50%; }
+      left: 50%;
+      transform: translate(-50%, -50%); }
 
 #section-c .gallery-img-contain {
   display: grid;

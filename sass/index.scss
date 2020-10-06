@@ -389,9 +389,10 @@ html,body
                 position:absolute;
                 bottom:10px;
                 display:flex;
-                transform:translateX(50%,50%);
-                margin-left:50%;
-
+                // top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+               
             }
         }
     }
