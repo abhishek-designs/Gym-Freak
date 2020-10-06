@@ -216,7 +216,7 @@
             .gallery-img-contain
             {
                 grid-template-columns:repeat(2,1fr);
-
+                padding:2rem 0;
                 .img
                 {
                     &-1
