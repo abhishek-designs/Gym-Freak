@@ -1250,7 +1250,7 @@ input {
   #section-c .gallery-img-contain {
     grid-template-columns: repeat(2, 1fr); }
     #section-c .gallery-img-contain .img-1 .img-contain {
-      background-position: left; }
+      background-position: 30%; }
     #section-c .gallery-img-contain .img-2 {
       grid-row: span 1; }
     #section-c .gallery-img-contain .img-4 .img-contain {
