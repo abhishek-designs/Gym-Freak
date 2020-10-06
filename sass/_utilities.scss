@@ -398,7 +398,7 @@ input
                 position:absolute;
                 height:40px;
                 width:40px;
-                z-index:2;
+                z-index:4;
                 opacity:0;
                 cursor:pointer;
     
@@ -420,6 +420,11 @@ input
                     top:0;
                     transform:rotate(90deg);
                 }
+
+                &:checked ~ .menu-wrap
+                {
+                    transform:translateX(0);
+                }
             }
     
             .hamburger
@@ -429,7 +434,7 @@ input
                 width:50px;
                 padding:0 0.3rem;
                 // padding:0 0.6rem;
-                z-index:1;
+                z-index:3;
                 display:flex;
                 justify-content:center;
                 align-items:center;
@@ -462,6 +467,61 @@ input
                     }
     
                 }
+            }
+
+            // Menu Wrapper styling
+            &-wrap
+            {
+                position:fixed;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                z-index:2;
+                background:darken($primary-color,20%);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                transform:translateX(-100%);
+                transition:transform 0.4s ease;
+
+                .nav-links
+                {
+                    ul
+                    {
+                        li
+                        {
+                            padding-bottom:1.7rem;
+                            a
+                            {
+                                position:relative;
+                                font-size:2rem;
+                                color:$light-color;
+
+                                &::after
+                                {
+                                    content:'';
+                                    position:absolute;
+                                    height:2px;
+                                    // width:100%;
+                                    background:$light-color;
+                                    bottom:0;
+                                    left:0;
+                                    width:0%;
+                                    transition:all $anim-speed ease;
+                                }
+
+                                &:hover::after
+                                {
+                                    width:100%;
+
+                                }
+
+                            }
+                        }
+                    }
+                }
+                
             }
         }
 
