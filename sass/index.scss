@@ -8,7 +8,26 @@ html,body
     font-weight:700;
     line-height:1.4;
     background:$light-color;
-    // overflow-x:hidden;
+
+    .navigator
+    {
+        position:fixed;
+        top:50%;
+        right:5px;
+        opacity:0.6;
+        z-index:2;
+
+        .icon-contain
+        {
+            height:30px;
+            width:30px;
+            background:$primary-color;
+            border-radius:50%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+    }
 }
 
 // Homepage styling
@@ -165,6 +184,7 @@ html,body
     // About section styling
     &-a
     {
+        overflow:hidden;
         .container
         {
             display:flex;
