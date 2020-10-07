@@ -45,5 +45,6 @@ for(let i=0; i<links.length; i++)
 
 function disableMenu()
 {
+    // Disabling the menu wrap
     toggler.checked = false;
 }
