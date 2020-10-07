@@ -48,3 +48,27 @@ function disableMenu()
     // Disabling the menu wrap
     toggler.checked = false;
 }
+
+// Adding automatic smooth scrolling to the sections
+// First accessing the links from which we can navigate
+$('.navbar-wide a, .navbar-shrink .menu-wrap a, .btn').on('click',function(event){
+    // Checking there is path link or not
+    if(this.hash != '')
+    {
+        // There is a specified link on which screen will scroll through
+        event.preventDefault();
+        const hash = this.hash;
+
+        // Now we have to animate the scroll to the path
+        $('html, body').animate(
+            // animate({property}, animation duration in ms)
+            {scrollTop: $(hash).offset().top},
+            800
+        );
+    }
+});
+
+// Now adding smooth scrolling to the landing page
+// Accessing navigator
+
+const navigator = document.querySelector('.navigator');
