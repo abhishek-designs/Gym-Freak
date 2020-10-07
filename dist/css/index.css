@@ -385,14 +385,17 @@ html, body {
   html .navigator, body .navigator {
     position: fixed;
     top: 50%;
-    right: 5px;
-    opacity: 0.6;
-    z-index: 2; }
+    right: 0;
+    transform: translateX(50px);
+    opacity: 0.7;
+    z-index: 2;
+    transition: all 0.3s ease; }
+    html .navigator:hover, body .navigator:hover {
+      opacity: 1; }
     html .navigator .icon-contain, body .navigator .icon-contain {
-      height: 30px;
-      width: 30px;
+      height: 50px;
+      width: 50px;
       background: #FA2A34;
-      border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center; }
@@ -1247,6 +1250,9 @@ input {
       text-align: center; }
 
 @media (max-width: 500px) {
+  html .navigator .icon-contain, body .navigator .icon-contain {
+    height: 30px;
+    width: 30px; }
   .navbar-wide {
     display: none; }
   .head-1 {

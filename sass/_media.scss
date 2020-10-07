@@ -4,6 +4,17 @@
 // Smartphone view
 @media(max-width:500px)
 {
+    html, body
+    {
+        .navigator
+        {
+            .icon-contain
+            {
+                height:30px;
+                width:30px;
+            }
+        }
+    }
     .navbar-wide
     {
         display:none;

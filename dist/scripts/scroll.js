@@ -51,7 +51,7 @@ function disableMenu()
 
 // Adding automatic smooth scrolling to the sections
 // First accessing the links from which we can navigate
-$('.navbar-wide a, .navbar-shrink .menu-wrap a, .btn').on('click',function(event){
+$('.navbar-wide a, .navbar-shrink .menu-wrap a, .navigator a, .btn').on('click',function(event){
     // Checking there is path link or not
     if(this.hash != '')
     {
@@ -72,3 +72,15 @@ $('.navbar-wide a, .navbar-shrink .menu-wrap a, .btn').on('click',function(event
 // Accessing navigator
 
 const navigator = document.querySelector('.navigator');
+
+window.onscroll = function()
+{
+    if(window.pageYOffset > 550)
+    {
+        navigator.style.transform = 'translateX(0)';
+    }
+    else
+    {
+        navigator.style.transform = 'translateX(50px)';
+    }
+}
