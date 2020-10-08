@@ -475,6 +475,35 @@ html, body {
         width: 5px;
         background: #9D9D9D;
         border-radius: 50%; }
+  #home .intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3; }
+    #home .intro .intro-text .hide {
+      background: #000;
+      overflow: hidden; }
+      #home .intro .intro-text .hide .text {
+        display: inline-block;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 6rem;
+        transform: translateY(15rem); }
+  #home .slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FA2A34;
+    z-index: 3;
+    transform: translateY(100%); }
 
 #section-a {
   overflow: hidden; }
@@ -1317,6 +1346,8 @@ input {
         width: 50px;
         background: #FDFDFD;
         border-radius: 25px; }
+    #home .intro .intro-text .hide .text {
+      font-size: 4rem; }
   #section-a .container .about-content {
     width: 100%; }
     #section-a .container .about-content .below-section {
