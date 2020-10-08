@@ -27,3 +27,14 @@ let t2 = gsap.timeline({
 });
 
 t2.from(".gallery .img", {scale: 0, duration: 1});
+
+// Navbar shrink animation
+// Accessing toggler
+const toggle = document.querySelector('.toggler');
+toggle.addEventListener('click',animateMenu);
+
+function animateMenu()
+{
+    if(this.checked == true)
+    tl.from(".navbar-shrink ul li", {opacity: 0, x: -50, duration: 0.5, stagger: 0.2})
+}
