@@ -298,7 +298,7 @@
                 .card-container
                 {
                     grid-template-columns:1fr;
-                    grid-gap:1.5rem;
+                    grid-gap:0.1rem;
 
                     .trainer-card
                     {
@@ -324,26 +324,28 @@
                             padding:3rem 1rem;
                             margin-top:-25px;
                             width:50%;
-                        }
-
-                        .contact-links
-                        {
-                            bottom:25px;
-                            .icon-flex
+                            .contact-links
                             {
-                                .icon-contain
+                                margin-top:0.8rem;
+                                position:relative;
+                                // bottom:25px;
+                                .icon-flex
                                 {
-                                    height:30px;
-                                    width:30px;
-                                    padding:0.8rem;
-
-                                    i
+                                    .icon-contain
                                     {
-                                        font-size:0.7rem;
+                                        height:30px;
+                                        width:30px;
+                                        padding:0.8rem;
+    
+                                        i
+                                        {
+                                            font-size:0.7rem;
+                                        }
                                     }
                                 }
                             }
                         }
+
                     }
                 }
             }

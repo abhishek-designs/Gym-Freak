@@ -680,7 +680,6 @@ html, body {
       grid-gap: 5rem; }
       #section-d .container .card-container .trainer-card {
         position: relative;
-        overflow: hidden;
         height: 90%; }
         #section-d .container .card-container .trainer-card .trainer-pic {
           height: 40%;
@@ -688,31 +687,31 @@ html, body {
           background: #333; }
         #section-d .container .card-container .trainer-card .trainer-desc {
           height: 50%;
-          padding: 1.5rem 1.6rem; }
+          padding: 1rem 1.6rem; }
           #section-d .container .card-container .trainer-card .trainer-desc .title .head-3 {
             padding: 0; }
           #section-d .container .card-container .trainer-card .trainer-desc .desc {
             margin-top: 1rem; }
-        #section-d .container .card-container .trainer-card .contact-links {
-          position: absolute;
-          bottom: 10px;
-          height: 10%;
-          display: flex; }
-          #section-d .container .card-container .trainer-card .contact-links .icon-flex {
-            margin-right: 0.6rem; }
-            #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain {
-              height: 40px;
-              width: 40px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              border-radius: 50%;
-              cursor: pointer;
-              transition: all 0.3s ease; }
-              #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain:hover {
-                background: #333; }
-                #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain:hover i {
-                  color: #FA2A34; }
+          #section-d .container .card-container .trainer-card .trainer-desc .contact-links {
+            position: absolute;
+            bottom: 10px;
+            height: 10%;
+            display: flex; }
+            #section-d .container .card-container .trainer-card .trainer-desc .contact-links .icon-flex {
+              margin-right: 0.6rem; }
+              #section-d .container .card-container .trainer-card .trainer-desc .contact-links .icon-flex .icon-contain {
+                height: 40px;
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: all 0.3s ease; }
+                #section-d .container .card-container .trainer-card .trainer-desc .contact-links .icon-flex .icon-contain:hover {
+                  background: #333; }
+                  #section-d .container .card-container .trainer-card .trainer-desc .contact-links .icon-flex .icon-contain:hover i {
+                    color: #FA2A34; }
         #section-d .container .card-container .trainer-card-1 .trainer-pic {
           background: url("../img/trainer1.jpg") no-repeat center center/cover; }
         #section-d .container .card-container .trainer-card-2 .trainer-pic {
@@ -1386,7 +1385,7 @@ input {
     height: 120vh; }
     #section-d .container .card-container {
       grid-template-columns: 1fr;
-      grid-gap: 1.5rem; }
+      grid-gap: 0.1rem; }
       #section-d .container .card-container .trainer-card {
         display: flex;
         height: 80%; }
@@ -1399,14 +1398,15 @@ input {
           padding: 3rem 1rem;
           margin-top: -25px;
           width: 50%; }
-        #section-d .container .card-container .trainer-card .contact-links {
-          bottom: 25px; }
-          #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain {
-            height: 30px;
-            width: 30px;
-            padding: 0.8rem; }
-            #section-d .container .card-container .trainer-card .contact-links .icon-flex .icon-contain i {
-              font-size: 0.7rem; }
+          #section-d .container .card-container .trainer-card .trainer-desc .contact-links {
+            margin-top: 0.8rem;
+            position: relative; }
+            #section-d .container .card-container .trainer-card .trainer-desc .contact-links .icon-flex .icon-contain {
+              height: 30px;
+              width: 30px;
+              padding: 0.8rem; }
+              #section-d .container .card-container .trainer-card .trainer-desc .contact-links .icon-flex .icon-contain i {
+                font-size: 0.7rem; }
   #section-e {
     overflow-y: unset; }
     #section-e .container .price-card-contain {
