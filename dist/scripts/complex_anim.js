@@ -18,3 +18,12 @@ let t1 = gsap.timeline({
 });
     
 t1.from(".about .feature", {x: -100, opacity: 0, duration: 1, stagger: 0.2} );
+
+let t2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".gallery",
+        start: 'center bottom',
+    }
+});
+
+t2.from(".gallery .img", {scale: 0, duration: 1});
