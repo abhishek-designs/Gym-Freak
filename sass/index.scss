@@ -314,7 +314,7 @@ html,body
                     position:absolute;
                     display:grid;
                     grid-template-columns:repeat(6,1fr);
-                    grid-gap:0.6rem;
+                    grid-gap:0.4rem;
                     // left:0;
                     bottom:-30px;
                     right:5px;
@@ -830,15 +830,16 @@ html,body
                     &-1
                     {
                         position:absolute;
-                        // left:34.8%;
-                        animation:slide-left 0.5s alternate ease;
+                        left:0;
+                        // animation:slide-left 0.5s alternate ease;
                     }
 
                     &-3
                     {
                         position:absolute;
-                        right:34.8%;
-                        animation:slide-right 0.5s forwards ease;
+                        right:0;
+                        // right:0;
+                        // animation:slide-right 0.5s forwards ease;
                     }
 
                     @keyframes size-state

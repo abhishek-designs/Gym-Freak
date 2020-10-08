@@ -551,7 +551,7 @@ html, body {
         position: absolute;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-gap: 0.6rem;
+        grid-gap: 0.4rem;
         bottom: -30px;
         right: 5px; }
         #section-a .container .about-showcase .circular-grid .circle {
@@ -772,11 +772,10 @@ html, body {
             background: #fb5c63; }
       #section-e .container .price-card-contain .price-card-1 {
         position: absolute;
-        animation: slide-left 0.5s alternate ease; }
+        left: 0; }
       #section-e .container .price-card-contain .price-card-3 {
         position: absolute;
-        right: 34.8%;
-        animation: slide-right 0.5s forwards ease; }
+        right: 0; }
 
 @keyframes size-state {
   0% {
