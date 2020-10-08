@@ -68,7 +68,7 @@ input {
   color: #FA2A34; }
 
 .secondary {
-  color: #000; }
+  color: #121212; }
 
 .dark {
   color: #333; }
@@ -86,7 +86,7 @@ input {
   background: #FA2A34; }
 
 .bg-secondary {
-  background: #000; }
+  background: #121212; }
 
 .bg-dark {
   background: #333; }
@@ -153,10 +153,10 @@ input {
   color: #FDFDFD; }
   .btn-primary:hover {
     background: #FDFDFD;
-    color: #000; }
+    color: #121212; }
 
 .btn-secondary {
-  background: #000;
+  background: #121212;
   color: #FDFDFD; }
   .btn-secondary:hover {
     background: #FDFDFD;
@@ -450,7 +450,7 @@ html, body {
     margin-top: 1.3rem;
     user-select: none; }
     #home-main .showcase-quote .head-1 {
-      color: #111111;
+      color: #0e0e0e;
       font-size: 6rem; }
     #home-main .showcase-quote .quote-2 {
       margin-top: -57px;
@@ -481,13 +481,13 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000;
+    background: #121212;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 3; }
     #home .intro .intro-text .hide {
-      background: #000;
+      background: #121212;
       overflow: hidden; }
       #home .intro .intro-text .hide .text {
         display: inline-block;
@@ -730,7 +730,7 @@ html, body {
       position: relative;
       padding: 1.5rem 1.8rem;
       width: 30.3%;
-      box-shadow: -11px 9px 35px rgba(0, 0, 0, 0.25); }
+      box-shadow: -11px 9px 35px rgba(18, 18, 18, 0.25); }
       #section-e .container .price-card-contain .price-card .price-tab {
         text-align: center;
         padding: 2rem 0;
@@ -826,7 +826,7 @@ html, body {
           height: 100%;
           width: 100%;
           padding-top: 25px;
-          background: #000;
+          background: #121212;
           color: #FDFDFD;
           border: none;
           outline: 0; }
@@ -890,7 +890,7 @@ html, body {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: #333333;
+        background: #454545;
         top: -30px;
         right: -20px; }
     #section-f .container .contact-contain .contact-showcase .circular-grid {
@@ -969,7 +969,7 @@ input {
   color: #FA2A34; }
 
 .secondary {
-  color: #000; }
+  color: #121212; }
 
 .dark {
   color: #333; }
@@ -987,7 +987,7 @@ input {
   background: #FA2A34; }
 
 .bg-secondary {
-  background: #000; }
+  background: #121212; }
 
 .bg-dark {
   background: #333; }
@@ -1054,10 +1054,10 @@ input {
   color: #FDFDFD; }
   .btn-primary:hover {
     background: #FDFDFD;
-    color: #000; }
+    color: #121212; }
 
 .btn-secondary {
-  background: #000;
+  background: #121212;
   color: #FDFDFD; }
   .btn-secondary:hover {
     background: #FDFDFD;
@@ -1313,7 +1313,7 @@ input {
     padding: 0.6rem 1.4rem;
     font-size: 0.8rem; }
   #home {
-    background: #000; }
+    background: #121212; }
     #home-main .showcase-quote .head-1 {
       font-size: 3rem; }
     #home-main .showcase-quote .quote-2 {
