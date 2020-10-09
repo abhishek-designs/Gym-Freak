@@ -720,15 +720,18 @@ html,body
                 .price-card
                 {
                     position:relative;
-                    padding:1.5rem 1.8rem;
+                    padding:0;
                     // margin:0 2rem;
                     width:30.3%;
                     box-shadow:-11px 9px 35px rgba($secondary-color,0.25);
                     .price-tab
                     {
-                        text-align:center;
+                        display:flex;
+                        flex-direction:column;
+                        justify-content:center;
+                        align-items:center;
                         padding:2rem 0;
-                        height:450px;
+                        height:170px;
                         background:$light-color;
                         // display:flex;
                         // flex-direction:row;
@@ -743,10 +746,10 @@ html,body
 
                     .features-tab
                     {
-                        position:absolute;
-                        bottom:0;
-                        left:0;
-                        right:0;
+                        // position:absolute;
+                        // bottom:0;
+                        // left:0;
+                        // right:0;
                         padding:1.5rem 1.8rem;
                         background:$light-med-color;
                         .head-3

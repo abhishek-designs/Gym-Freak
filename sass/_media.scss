@@ -366,9 +366,23 @@
                     .price-card
                     {
                         width:100%;
-                        padding:1rem 1.5rem;
+                        padding:0;
                         animation: unset;
                         margin-bottom:2rem;
+
+                        .price-tab
+                        {
+                            display:flex;
+                            flex-direction:column;
+                            justify-content:center;
+                            align-items:center;
+                            height:170px;
+                        }
+
+                        .features-tab
+                        {
+                            position:unset;
+                        }
 
                         &-1,
                         &-2,

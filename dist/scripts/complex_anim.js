@@ -7,7 +7,7 @@ tl.to(".text", {duration: 1, y: 0, stagger: 0.2})
   .to(".intro", {duration: 0.8, y: "-100%"}, "-=0.7")
   .from(".showcase-content .slider-contain", {duration: 1, opacity:0, x: -50})
   .from(".showcase-art .circle-art", {duration: 0.5, x: "50px"}, "-=0.4")
-  .fromTo(".showcase-art .circle-art .circular-grid .circle", {opacity: 0, y: -50}, {opacity:1, y: 0, duration: 0.4, stagger: 0.1});
+  .fromTo(".showcase-art .circle-art .circular-grid .circle", {opacity: 0, y: -50}, {opacity:1, y: 0, duration: 0.2, stagger: 0.1});
 
 // ScrollTrigger
 // About section
@@ -22,7 +22,7 @@ let t1 = gsap.timeline({
     
 t1.from(".about .feature", {x: -100, opacity: 0, stagger: 0.2})
   .from(".about .img-contain", {x: 200}, "-=0.5")
-  .fromTo(".about .circular-grid .circle", {opacity: 0, y: -50}, {opacity: 1, y: 0, duration:0.4, stagger: 0.1})
+  .fromTo(".about .circular-grid .circle", {opacity: 0, y: -50}, {opacity: 1, y: 0, duration:0.2, stagger: 0.1})
 
 // Gallery section
 const t2 = gsap.timeline({
@@ -97,6 +97,20 @@ function checkMedia(x)
 var x = window.matchMedia("(max-width: 500px)");
 checkMedia(x);
 x.addListener(checkMedia);
+
+// Contact section
+const t5 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".contact",
+        start: "center bottom",
+        duration: 1,
+        ease: "power1.out"
+    }
+});
+
+t5.from(".contact .contact-showcase .img-container", {scale: 0})
+  .from(".contact .contact-showcase .art-container", {scale: 0})
+  .fromTo(".contact .contact-showcase .circular-grid .circle", {opacity: 0, y: -50}, {opacity: 1, y: 0, duration: 0.2, stagger: 0.1})
 
 // Navbar shrink animation
 // Accessing toggler

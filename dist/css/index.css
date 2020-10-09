@@ -727,22 +727,21 @@ html, body {
     display: flex; }
     #section-e .container .price-card-contain .price-card {
       position: relative;
-      padding: 1.5rem 1.8rem;
+      padding: 0;
       width: 30.3%;
       box-shadow: -11px 9px 35px rgba(18, 18, 18, 0.25); }
       #section-e .container .price-card-contain .price-card .price-tab {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 2rem 0;
-        height: 450px;
+        height: 170px;
         background: #FDFDFD; }
         #section-e .container .price-card-contain .price-card .price-tab .lead-1 {
           font-size: 2.5rem;
           padding: 0; }
       #section-e .container .price-card-contain .price-card .features-tab {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
         padding: 1.5rem 1.8rem;
         background: #f5f5f5; }
         #section-e .container .price-card-contain .price-card .features-tab .head-3 {
@@ -1414,9 +1413,17 @@ input {
       margin-top: 2.5rem; }
       #section-e .container .price-card-contain .price-card {
         width: 100%;
-        padding: 1rem 1.5rem;
+        padding: 0;
         animation: unset;
         margin-bottom: 2rem; }
+        #section-e .container .price-card-contain .price-card .price-tab {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 170px; }
+        #section-e .container .price-card-contain .price-card .features-tab {
+          position: unset; }
         #section-e .container .price-card-contain .price-card-1, #section-e .container .price-card-contain .price-card-2, #section-e .container .price-card-contain .price-card-3 {
           position: relative; }
         #section-e .container .price-card-contain .price-card-3 {
