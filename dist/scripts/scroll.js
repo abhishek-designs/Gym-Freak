@@ -51,7 +51,7 @@ function disableMenu()
 
 // Adding automatic smooth scrolling to the sections
 // First accessing the links from which we can navigate
-$('.navbar-wide a, .navbar-shrink .menu-wrap a, .navigator a, .btn').on('click',function(event){
+$('a, .btn').on('click',function(event){
     // Checking there is path link or not
     if(this.hash != '')
     {

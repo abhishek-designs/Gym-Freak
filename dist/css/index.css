@@ -1432,7 +1432,7 @@ input {
     display: block;
     margin-top: 1.6rem;
     padding: 0 2rem;
-    grid-gap: 0; }
+    grid-gap: unset; }
     #section-f .container .contact-contain .contact-flex {
       width: 100%; }
       #section-f .container .contact-contain .contact-flex .contact-form .form-contain {
