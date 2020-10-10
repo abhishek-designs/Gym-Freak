@@ -94,7 +94,7 @@ function checkMedia(x)
     }
 }
 
-var x = window.matchMedia("(max-width: 500px)");
+var x = window.matchMedia("(max-width: 768px)");
 checkMedia(x);
 x.addListener(checkMedia);
 
@@ -122,3 +122,5 @@ function animateMenu()
     if(this.checked == true)
     tl.from(".navbar-shrink ul li", {opacity: 0, x: -50, duration: 0.5, stagger: 0.2})
 }
+
+

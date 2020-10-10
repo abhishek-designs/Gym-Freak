@@ -20,6 +20,26 @@
         display:none;
     }
 
+    .navbar-shrink
+    {
+        .nav-content
+        {
+            .menu
+            {
+                .hamburger
+                {
+                    div
+                    {
+                        width:80%;
+                        height:1.5px;
+                    }
+                }
+
+            }
+        
+        }
+    }
+
     // Heading classes
     .head
     {
@@ -433,6 +453,495 @@
                                         &::after
                                         {
                                             transform:translateX(-400px);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .contact-showcase
+                    {
+                        display:none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    // Footer
+    .main-footer
+    {
+        .container
+        {
+            grid-template-columns:1fr;
+            grid-gap:3rem;
+
+            .box
+            {
+                
+                &-5
+                {
+                    grid-column:span 1;
+
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px)
+{
+    .navbar-wide
+    {
+        display:none;
+    }
+
+    .navbar-shrink
+    {
+        .nav-content
+        {
+
+            .hamburger
+            {
+                div
+                {
+                    width:100%;
+                    height:1.5px;
+                }
+            }
+
+    
+        }
+
+    }
+
+    html, body
+    {
+        .navigator
+        {
+            .icon-contain
+            {
+                height:30px;
+                width:30px;
+            }
+        }
+    }
+
+    // Heading classes
+    .head
+    {
+
+        &-1
+        {
+            font-size:2rem;
+        }
+        &-2
+        {
+            font-size:1.5rem;
+        }
+        &-3
+        {
+            font-size:1.2rem;
+        }
+        &-4
+        {
+            font-size:1.3rem;
+        }
+        &-underline
+        {
+            position:relative;
+
+            &:after
+            {
+                content:'';
+                position:absolute;
+                height:2px;
+                width:10%;
+                background:$primary-color;
+                bottom:0;
+                left:0;
+                transform:translateY(-5px);
+                // margin-top:-100px;
+            }
+        }
+
+    }
+
+    // Paragraph classes
+    .lead
+    {
+        &-1
+        {
+            font-size:0.8rem;
+        }
+        &-2
+        {
+            font-size:0.7rem;
+        }
+        &-3
+        {
+            font-size:0.6rem;
+        }
+    }
+
+    // Button class
+    %btn-shared
+    {
+        padding:0.6rem 1.4rem;
+        font-size:0.8rem;
+    }
+
+    // Showcase styling
+    #home
+    {
+        background:$secondary-color;
+        
+        &-main
+        {
+            .showcase-quote
+            {
+                .head-1
+                {
+                    font-size:3rem; 
+                }
+    
+                .quote-2
+                {
+                    margin-top:-40px;
+                    transform:translateX(110px);
+                }
+            }
+    
+            .showcase-content
+            {
+                margin-top:8rem;
+
+                .btn
+                {
+                    margin-top:1.6rem;
+                }
+            }
+
+            .showcase-art
+            {
+
+                .circle-art
+                {
+                    height:10rem;
+                    width:10rem;
+                    right:-100px;
+                    z-index:1;
+
+                    .circular-grid
+                    {
+                        left:5px;
+                        .circle
+                        {
+                            height:4px;
+                            width:4px;
+                        }
+                    }
+                }
+
+            }
+            
+        }
+
+        // Scroll indicator styling
+        .scroll-indicate
+        { 
+            left:0;
+            right:0;
+            position:absolute;
+            display:flex;
+            justify-content:center;
+            bottom:70px;
+            z-index:1;
+            // display:none;
+            
+            .indicator
+            {
+                height:5px;
+                width:50px;
+                background:$light-color;
+                border-radius:25px;
+            }
+        }
+
+        // Intro
+        .intro
+        {
+            .intro-text
+            {
+                .hide
+                {
+                    .text
+                    {
+                        font-size:4rem;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    // Remaining section stylings
+    #section
+    {
+        &-a
+        {
+            .container
+            {
+                .about-content
+                {
+                    width:100%;
+
+                    .below-section
+                    {
+                        grid-template-columns:1fr;
+                        grid-gap:2rem;
+                    }
+                }
+                .about-showcase
+                {
+                    display:none;
+                }
+            }
+        }
+
+        // Testimonial
+        &-b
+        {
+            .container
+            {
+                .test-carousel
+                {
+                    .client-tab
+                    {
+                        margin-top:7rem;
+                    }
+                }
+                .apostrophe
+                {
+                    font-size:2rem;
+                    z-index:1;
+
+                    &-1
+                    {
+                        top:30px;
+                        left:2px;
+                    }
+
+                    &-2
+                    {
+                        bottom:-30px;
+                        right:2px;
+                    }
+
+                }
+
+                .test-indicator
+                {
+                    bottom:5px;
+                }
+            }
+        }
+
+        // Gallery
+        &-c
+        {   
+            .gallery-img-contain
+            {
+                grid-template-columns:repeat(2,1fr);
+                
+                .img
+                {
+                    height:200px;
+                    &-1
+                    {
+                        .img-contain
+                        {
+                            background-position: 30%;
+                        }
+                    }
+                    &-2
+                    {
+                        grid-row:span 1;
+                    }
+                    &-4
+                    {
+                        .img-contain
+                        {
+                            background-position: 65%;
+                        }
+                    }
+
+                    &-wrapper
+                    {
+                        .content
+                        {
+                            .head-2
+                            {
+                                font-size:1.2rem;
+                            }
+                            .lead-2
+                            {
+                                font-size:0.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Trainers
+        &-d
+        {
+            height:120vh;
+            .container
+            {
+                
+                .card-container
+                {
+                    grid-template-columns:1fr;
+                    grid-gap:0.1rem;
+
+                    .trainer-card
+                    {
+                        display:flex;
+                        height:80%;
+
+                        .trainer-pic
+                        {
+                            height:100%;
+                            width:50%;
+                        }
+
+                        &-1
+                        {
+                            .trainer-pic
+                            {
+                                background-position:70%;
+                            }
+                        }
+
+                        .trainer-desc
+                        {
+                            padding:3rem 1rem;
+                            margin-top:-25px;
+                            width:50%;
+                            .contact-links
+                            {
+                                margin-top:0.8rem;
+                                position:relative;
+                                // bottom:25px;
+                                .icon-flex
+                                {
+                                    .icon-contain
+                                    {
+                                        height:30px;
+                                        width:30px;
+                                        padding:0.8rem;
+    
+                                        i
+                                        {
+                                            font-size:0.7rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        // Pricing
+        &-e
+        {
+            overflow-y: unset;
+            .container
+            {
+                .price-card-contain
+                {
+                    display:block;
+                    padding:0 1rem;
+                    margin-top:2.5rem;
+
+                    .price-card
+                    {
+                        width:100%;
+                        padding:0;
+                        animation: unset;
+                        margin-bottom:2rem;
+
+                        .price-tab
+                        {
+                            display:flex;
+                            flex-direction:column;
+                            justify-content:center;
+                            align-items:center;
+                            height:170px;
+                        }
+
+                        .features-tab
+                        {
+                            position:unset;
+                        }
+
+                        &-1,
+                        &-2,
+                        &-3
+                        {
+                            position:relative;
+                        }
+
+                        &-3
+                        {
+                            right:0;
+                        }
+                        
+                    }
+                }
+
+            }
+        }
+
+        // Contact form
+        &-f
+        {
+            // background:$dark-color;
+            .container
+            {
+                .contact-contain
+                {
+                    display:block;
+                    margin-top:1.6rem;
+                    padding:0 2rem;
+                    grid-gap:unset;
+    
+                    .contact-flex
+                    {
+                        width:100%;
+    
+                        .contact-form
+                        {
+                            .form-contain
+                            {
+                                display:block;
+
+                                .form-grp
+                                {
+                                    width:100%;
+                                    .label-contain
+                                    {
+                                        &::after
+                                        {
+                                            transform:translateX(-600px);
                                         }
                                     }
                                 }
