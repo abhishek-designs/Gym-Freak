@@ -3,3 +3,5 @@
 ***
 <a href="https://freak-gym.netlify.app/"><img src="Project_img/img1.png"/></a>
 
+## Some glimpse of the site
+
